@@ -34,24 +34,14 @@ class User extends Model
         string $email,
         string $password,
         string $document = null
-    ): User {
+    ): User
+    {
         $this->first_name = $firstName;
         $this->last_name = $lastName;
         $this->email = $email;
         $this->password = $password;
         $this->document = $document;
         return $this;
-    }
-
-    /**
-     * @param int $id
-     * @param string $columns
-     * @return null|User
-     */
-    public function findById(int $id, string $columns = "*"): ?User
-    {
-        $find = $this->find("id = :id", "id={$id}", $columns);
-        return $find->fetch();
     }
 
     /**
