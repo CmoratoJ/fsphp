@@ -22,6 +22,12 @@ define("CONF_SITE_TITLE", "Gerencie suas contas com o melhor café");
 define("CONF_SITE_DESC", "O CafeControl é um gerenciador de contas simples, poderoso e gratuito. O prazer de tomar um café e ter o controle total de suas contas.");
 define("CONF_SITE_LANG", "pt_BR");
 define("CONF_SITE_DOMAIN", "upinside.com.br");
+define("CONF_SITE_ADDR_STREET", "Av. Miguel Perrela, Castelo");
+define("CONF_SITE_ADDR_NUMBER", "975");
+define("CONF_SITE_ADDR_COMPLEMENT", "503");
+define("CONF_SITE_ADDR_CITY", "Belo Horizonte");
+define("CONF_SITE_ADDR_STATE", "MG");
+define("CONF_SITE_ADDR_ZIPCODE", "30235-869");
 
 /**
  * SOCIAL
@@ -84,12 +90,13 @@ define("CONF_IMAGE_QUALITY", ["jpg" => 75, "png" => 5]);
 /**
  * MAIL
  */
-define("CONF_MAIL_HOST", "smtp.sendgrid.net");
-define("CONF_MAIL_PORT", "587");
-define("CONF_MAIL_USER", "apikey");
-define("CONF_MAIL_PASS", "**************************");
-define("CONF_MAIL_SENDER", ["name" => "Robson V. Leite", "address" => "cursos@upinside.com.br"]);
-define("CONF_MAIL_SUPPORT", "cursos@upinside.com.br");
+define("CONF_MAIL_HOST", "smtp.gmail.com"); //Servidor de e-mail
+define("CONF_MAIL_PORT", "587"); //Porta de envio
+define("CONF_MAIL_USER", "email@gmail.com"); //E-mail de envio
+define("CONF_MAIL_SMTP", "smtp.gmail.com"); //E-mail autenticador do envio
+define("CONF_MAIL_PASS", "senha"); //Senha do e-mail de envio
+define("CONF_MAIL_SENDER", ["name" => "Nome", "address" => "Email"]); //Nome do remetende do e-mail
+define("CONF_MAIL_SUPPORT", "email@gmail.com");
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);
 define("CONF_MAIL_OPTION_AUTH", true);
