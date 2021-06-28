@@ -7,7 +7,7 @@ use League\Plates\Engine;
 /**
  * FSPHP | Class View
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
+ * @author Caio M. Junqueira
  * @package Source\Core
  */
 class View

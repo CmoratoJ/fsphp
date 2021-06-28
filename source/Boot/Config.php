@@ -57,20 +57,12 @@ define("CONF_PASSWD_ALGO", PASSWORD_DEFAULT);
 define("CONF_PASSWD_OPTION", ["cost" => 10]);
 
 /**
- * MESSAGE
- */
-define("CONF_MESSAGE_CLASS", "message");
-define("CONF_MESSAGE_INFO", "info icon-info");
-define("CONF_MESSAGE_SUCCESS", "success icon-check-square-o");
-define("CONF_MESSAGE_WARNING", "warning icon-warning");
-define("CONF_MESSAGE_ERROR", "error icon-warning");
-
-/**
  * VIEW
  */
 define("CONF_VIEW_PATH", __DIR__ . "/../../shared/views");
 define("CONF_VIEW_EXT", "php");
 define("CONF_VIEW_THEME", "cafeweb");
+define("CONF_VIEW_APP", "cafeapp");
 
 /**
  * UPLOAD
@@ -95,7 +87,7 @@ define("CONF_MAIL_PORT", "587"); //Porta de envio
 define("CONF_MAIL_USER", "email@gmail.com"); //E-mail de envio
 define("CONF_MAIL_SMTP", "smtp.gmail.com"); //E-mail autenticador do envio
 define("CONF_MAIL_PASS", "senha"); //Senha do e-mail de envio
-define("CONF_MAIL_SENDER", ["name" => "Nome", "address" => "Email"]); //Nome do remetende do e-mail
+define("CONF_MAIL_SENDER", ["name" => "Nome", "address" => "email@gmail.com"]); //Nome do remetende do e-mail
 define("CONF_MAIL_SUPPORT", "email@gmail.com");
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);

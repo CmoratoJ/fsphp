@@ -7,7 +7,7 @@ use CoffeeCode\Cropper\Cropper;
 /**
  * FSPHP | Class Thumb
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
+ * @author Caio M. Junqueira
  * @package Source\Support
  */
 class Thumb

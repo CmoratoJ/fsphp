@@ -7,7 +7,7 @@ use Source\Core\Model;
 /**
  * FSPHP | Class User Active Record Pattern
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
+ * @author Caio M. Junqueira
  * @package Source\Models
  */
 class User extends Model

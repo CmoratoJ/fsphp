@@ -7,7 +7,7 @@ use CoffeeCode\Optimizer\Optimizer;
 /**
  * FSPHP | Class Seo
  *
- * @author Robson V. Leite <cursos@upinside.com.br>
+ * @author Caio M. Junqueira
  * @package Source\Support
  */
 class Seo
